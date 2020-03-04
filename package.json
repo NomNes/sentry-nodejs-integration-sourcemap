@@ -12,7 +12,7 @@
     "url": "git+https://github.com/NomNes/sentry-nodejs-integration-sourcemap.git"
   },
   "author": "nomnes",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/NomNes/sentry-nodejs-integration-sourcemap/issues"
   },
