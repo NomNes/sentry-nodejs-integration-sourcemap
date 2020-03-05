@@ -1,8 +1,8 @@
 import { Integration, Stacktrace } from '@sentry/types'
 import parseFrames from './parseFrames'
 
-const Index: Integration = {
-  name: 'Index',
+const IntegrationSourcemap: Integration = {
+  name: 'IntegrationSourcemap',
   setupOnce (addGlobalEventProcessor): void {
     addGlobalEventProcessor(async event => {
       if (event.exception && event.exception.values) {
@@ -22,4 +22,4 @@ const Index: Integration = {
   },
 }
 
-export default Index
+export default IntegrationSourcemap
