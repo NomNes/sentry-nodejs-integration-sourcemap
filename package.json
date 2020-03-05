@@ -29,7 +29,7 @@
     "source-map": "^0.7.3"
   },
   "files": [
-    "src/*",
+    "dist/*",
     "types/*"
   ]
 }
